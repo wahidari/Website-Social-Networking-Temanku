@@ -30,7 +30,7 @@
 
     ![](./ss/index.png)
     
-- ##### Search Friend Paage
+- ##### Search Friend Page
 
     ![](./ss/search.png)
     
