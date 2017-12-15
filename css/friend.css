@@ -1,0 +1,59 @@
+/**
+ * @Author: Wahid Ari <wahidari>
+ * @Date:   18 November 2017, 11:06
+ * @Copyright: (c) wahidari 2017
+ */
+.listteman {
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    text-align: justify;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.cariteman {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    border-radius: 4px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.listteman img {
+    width: 150px;
+    float: left;
+    height: 150px;
+    margin-right: 14px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px #888888;
+}
+
+input[type=submit] {
+    margin: 6px 4px;
+}
+
+p.error {
+	display: -webkit-inline-box;
+    padding-left: 10px;
+	color: red;
+}
+
+p.success {
+	display: -webkit-inline-box;
+    padding-left: 10px;
+	color: #009688;
+}
+
+a.link {
+	text-decoration: none;
+	color: #fff;
+    padding: 8px;
+    margin-left: 2px;
+    border-radius: 4px;
+    background: #009688;
+    box-shadow: 0px 2px 2px #888888;
+}
+
+a.link:hover {
+    background: #00796B;
+}

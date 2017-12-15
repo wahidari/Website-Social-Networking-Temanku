@@ -1,0 +1,323 @@
+/**
+ * @Author: Wahid Ari <wahidari>
+ * @Date:   18 November 2017, 11:06
+ * @Copyright: (c) wahidari 2017
+ */
+* {
+    box-sizing: border-box;
+}
+html {
+    height:100%;
+    margin:0;
+}
+
+body {
+    margin: 0 10%;
+    height:100%;
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+}
+/*===========================================================================*/
+/* Style Menu */
+.menu {
+    position: fixed;
+    min-width: 80%;
+    min-height: 50px;
+    background-color: #263238;
+    box-shadow: 0px 4px 10px #888888;
+}
+
+/*LOGO*/
+.menu a.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 16px;
+}
+
+.menuright {
+    float: right;
+}
+
+/* Style Links on Menu */
+.menu a {
+    float: left;
+    /*display: block;*/
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+.menu a:hover {
+    background-color: #37474F;
+    color: white;
+}
+
+.menuright a{
+    border-left: 1px solid grey;
+}
+/*===========================================================================*/
+/* Style Main Content */
+.row {
+    padding-top: 6%;
+    min-height:100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+/* Right column */
+.column.right {
+    float: right;
+    margin-left: 56%;
+    position: fixed;
+    width: 24%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+/* Left column */
+.column.left {
+    width: 69%;
+}
+/*===========================================================================*/
+/*Responsive*/
+@media (max-width: 1000px) {
+    .column.right {
+        position: relative;
+        z-index: -1;
+        width: 50%;
+        margin-top: 4%;
+        margin-right: 25%;
+        margin-bottom: 12px;
+    }
+
+    .column.left {
+        width: 100%;
+    }
+
+    .menuright {
+        float: left;
+        margin: 0px;
+    }
+
+    .menucenter {
+        margin: 10px;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 863px) {
+    .column.right {
+        position: relative;
+        z-index: -1;
+        width: 50%;
+        margin-top: 10%;
+        margin-right: 25%;
+        margin-bottom: 12px;
+    }
+
+    .menuright {
+        position: relative;
+        margin: 0px;
+    }
+
+    .menucenter {
+        position: relative;
+        max-width: 50%;
+    }
+}
+
+/*===========================================================================*/
+/*POST Status*/
+.buatstatus {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+textarea {
+    width: 99%;
+    height: 150px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin: 4px 19px 4px 4px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=text] {
+    margin: 12px;
+    padding: 6px;
+    font-size: 1em;
+}
+
+input[type=submit] {
+	width: auto;
+	background-color: #009688;
+	color: white;
+	padding: 8px;
+	margin: 6px 8px;
+	border: none;
+	border-radius: 4px;
+    font-size: 1em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+input[type=submit]:hover {
+	background-color: #00796B;
+}
+/*===========================================================================*/
+/*Status*/
+.status {
+    margin-top: 16px;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    text-align: justify;
+}
+
+.status img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 12px;
+    float: left;
+    box-shadow: 0px 0px 1px #888888;
+}
+
+.profilstatus {
+    min-width: 100%;
+    float: left;
+    margin-bottom: 12px;
+    color: #212121;
+}
+
+.profilstatus h3 {
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.profilstatus p {
+    margin-top: -1px;
+    display: inline;
+    font-style: italic;
+}
+
+.isistatus {
+    margin-top: 60px;
+    color: #263238;
+    border: 1px solid #e1e2e3;
+    padding: 0px 8px;
+}
+
+.isistatus p {
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+}
+
+.tanggalstatus {
+    font-size: 0.8em;
+}
+
+/*===========================================================================*/
+/*Profil*/
+.profil {
+    text-align: center;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #e1e2e3;
+}
+
+.profil img {
+    max-width: 128px;
+    max-height: 128px;
+    box-shadow: 0px 0px 1px #888888;
+}
+
+/* Style the footer */
+.footer {
+    margin: 8px 0px 0px;
+    background-color: #263238;
+    min-height: 30px;
+    padding: 2px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    /*border-radius: 4px;*/
+    box-shadow: 0px 4px 10px #888888;
+}
+
+
+/*LANDING PAGE*/
+.background {
+    height: 94%;
+    box-shadow: 0px 4px 8px #888888;
+    bottom: 0;
+}
+
+.background img {
+    max-width: 300px;
+    display: block;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu p.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 10px;
+}
+.menu p {
+    margin: 0px;
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 8px ;
+    text-decoration: none;
+}
+
+.background a.button  {
+    text-decoration: none;
+    width: auto;
+	background-color: #009688;
+	color: white;
+	padding: 12px;
+	margin: 6px 12px;
+	border: none;
+	border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+a.button:hover {
+    background-color: #00796B;
+}
+
+.loginregis {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+
+p.emptystatus {
+    display: inline-block;
+    color: red;
+}
