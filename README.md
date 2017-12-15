@@ -14,13 +14,41 @@
 
 ## Screenshot
 
-- ScreenShot 1
+- ##### Welcome Page
 
-    ![](./ss/a.png)
+    ![](./ss/welcome.png)
 
-- ScreenShot 2
+- ##### Login Page
 
-    ![](./ss/b.png)
+    ![](./ss/login.png)
+    
+- ##### Register Page
+
+    ![](./ss/register.png)
+    
+- ##### Home Page
+
+    ![](./ss/index.png)
+    
+- ##### Search Friend Paage
+
+    ![](./ss/search.png)
+    
+- ##### Friend's List Page
+
+    ![](./ss/friend.png)
+    
+- ##### Friend Profil Page
+
+    ![](./ss/friendprofil.png)
+    
+- ##### Profil Page
+
+    ![](./ss/profil.png)
+    
+- ##### Edit Profil Page
+
+    ![](./ss/editprofil.png)
     
 ## License
 > This program is Free Software: 
