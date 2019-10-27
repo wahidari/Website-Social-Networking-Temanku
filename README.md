@@ -1,4 +1,4 @@
-# Project Akhir Pemrograman Aplikasi Web (Web Temanku)
+# Website Social Networking Temanku
 
 [![](https://gitlab.com/gitlab-org/gitlab-ee/badges/master/build.svg)](https://wahidari.gitlab.io)
 [![](https://semaphoreci.com/api/v1/projects/2f1a5809-418b-4cc2-a1f4-819607579fe7/400484/shields_badge.svg)](https://wahidari.gitlab.io)
